@@ -1,0 +1,43 @@
+{
+  "[markdown]": {
+    // ファイルを保存するときにフォーマットします。
+    "editor.formatOnSave": true,
+    // 行の折り返し方法を制御します。
+    "editor.wordWrap": "on",
+    // 入力中に候補を自動的に表示するかどうかを制御します。
+    "editor.quickSuggestions": false
+  },
+
+  // Markdown All in One のユーザ設定。
+  // 順序付きリストマーカーとして常に `1.` を使用する。
+  "markdown.extension.orderedList.marker": "one",
+  // 順序付きリストマーカーの自動修正
+  "markdown.extension.orderedList.autoRenumber": false,
+  //
+  "markdown.extension.syntax.decorations": false,
+  // GFMテーブルフォーマッターを有効化
+  "markdown.extension.tableFormatter.enabled": false,
+  // marpの設定。
+  "markdown.marp.themes": ["template.css"],
+
+  // Markdown Preview のユーザ設定。
+  // 拡張テーブル構文を有効にして、テーブルセルのマージをサポートします。
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  // コードチャンクの実行とJavaScriptファイルのインポートを有効にします。
+  "markdown-preview-enhanced.enableScriptExecution": false,
+  // Preview Theme
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+
+  // マークダウンのプレビューをスクロールすると、エディターのビューが更新されます。
+  "markdown.preview.scrollEditorWithPreview": false,
+  // マークダウンのエディタをスクロールすると、プレビューが更新されます。
+  "markdown.preview.scrollPreviewWithEditor": false,
+
+  // Markdown プレビューで改行を表現する方法を設定します。
+  // 'true' に設定すると、段落内のすべての改行に対して <br> が作成されます。
+  "markdown.preview.breaks": true,
+
+  "markdown.styles": "${workspaceFolder}\\template\\template.css",
+  // lintの設定。
+  "markdownlint.run": "onSave"
+}
