@@ -18,7 +18,10 @@
   // GFMテーブルフォーマッターを有効化
   "markdown.extension.tableFormatter.enabled": false,
   // marpの設定。
+  // 
   "markdown.marp.themes": ["template.css"],
+  // 全ての HTML エレメントを有効にする。
+  "markdown.marp.enableHtml": true,
 
   // Markdown Preview のユーザ設定。
   // 拡張テーブル構文を有効にして、テーブルセルのマージをサポートします。
