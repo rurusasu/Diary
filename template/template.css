@@ -1,9 +1,14 @@
-/* @theme template */
+/* 
+ *@theme template
+ *@auto-scaling true
+ */
 
 @import "default";
 
 section {
-  font-size: 10px;
+  font-size: 18px;
+  width: 960px;
+  height: 720px;
 }
 
 header {
@@ -34,4 +39,19 @@ h2 {
 h3 {
   font-size: 30;
   color: navy;
+}
+
+/*figure*/
+#left-box {
+  width: 800px;
+  font-size: 18px;
+  border: solid 1px #ffffff;
+  padding: 10px;
+  background: #ffffff;
+  overflow: hidden; /*float解除*/
+}
+#left-box .img {
+  float: right; /*画像の位置を右下にしたい場合はright*/
+  clear: both; /*.spaceのfloat解除*/
+  margin: 3px 3px 0 0; /*画像の周りの余白*/
 }

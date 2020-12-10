@@ -19,7 +19,7 @@
   "markdown.extension.tableFormatter.enabled": false,
   // marpの設定。
   // 
-  "markdown.marp.themes": ["template.css"],
+  "markdown.marp.themes": ["./template/template.css"],
   // 全ての HTML エレメントを有効にする。
   "markdown.marp.enableHtml": true,
 
